@@ -2,11 +2,6 @@ body {
   box-sizing: border-box;
 }
 
-.coolStyle {
-  color: red;
-  background-color: yellow;
-}
-
 .shoppingBox {
   display: flex;
   justify-content: center;
