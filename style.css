@@ -1,21 +1,36 @@
 body {
-	background-color:yellow;
+  box-sizing: border-box;
 }
+
 .coolStyle {
-	color:red;
-	background-color:yellow;
+  color: red;
+  background-color: yellow;
 }
 
 .shoppingBox {
-	display: flex;
-	justify-content: center;
-	color: white;
-	width:500px;
-	height:auto;
-	padding: 10px;
-	border-radius: 5px;
-	margin:auto;
-	background:linear-gradient(to right , black, red, blue);
+  display: flex;
+  justify-content: center;
+  color: white;
+  max-width: 1000px;
+  height: 800px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: auto;
+  background: linear-gradient(to right, black, red, blue);
+  font-size: 30px;
+}
+
+#userinput {
+  width: 500px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+#enter {
+  width: 80px;
+  height: 50px;
+  border-radius: 10px;
 }
 
 @media (max-width: 767px) {
