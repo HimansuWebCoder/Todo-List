@@ -33,19 +33,3 @@ body {
   border-radius: 10px;
 }
 
-@media (max-width: 767px) {
-  .shoppingBox {
-    width: 100%;
-    max-width: 400px;
-    padding: 8px;
-  }
-}
-
-/* Responsive styles for even smaller screens */
-@media (max-width: 479px) {
-  .shoppingBox {
-    max-width: 300px;
-    padding: 6px;
-    font-size: 14px;
-  }
-}
