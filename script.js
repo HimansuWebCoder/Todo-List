@@ -41,7 +41,7 @@ button.addEventListener("click", focusedInput);
 
 
 
-// Above we write code clean and with refactoring-
+// Above we have written code clean and with refactoring-
 // button.addEventListener("click", function() {
 //   if (input.value.length > 0) {
 //       var li = document.createElement("li");
