@@ -1,47 +1,41 @@
-html,body {
-  box-sizing: border-box;
-  width:100%;
-  height:100%;
+* {
+	box-sizing: border-box;
 }
 
-.shoppingBox {
-  display: flex;
-  justify-content: center;
-  color: white;
-  max-width: 1000px;
-  height: 100%;
-  padding: 10px;
-  border-radius: 5px;
+body {
+	background-color: rgba(1, 255, 255, 0.918);
+}
+
+/* todo list container styling  */
+#todo-container {
+  width: 90%;
+  height: 60vh;
   margin: auto;
-  background: linear-gradient(to right, black, red, blue);
-  font-size: 30px;
-  overflow: auto;
+  padding: 1rem;
+  background-color:rgba(101, 116, 167, 0.919);
+  border-radius: 5px;
+  box-shadow: 1px 10px 100px 50px rgba(38, 0, 255, 0.34);
 }
 
-h1 {
-  font-size: 90px;
+/* input element styling  */
+input {
+	width: 80%;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.5rem;
 }
 
-p {
-  font-size: 70px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ /* add fontsize dynamically using javascript when input value add then this fontsize makeup */
+.fontSize {
+	font-size: 1.5rem;
 }
 
-li {
-  font-size: 60px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* button styling */
+button {
+	width: fit-content;
+	height: 38px;
+	border: none;
+	border-radius: 5px;
 }
-
-#userinput {
-  width: 500px;
-  height: 50px;
-  border-radius: 10px;
-  font-size: 30px;
-}
-
-#enter {
-  width: 80px;
-  height: 50px;
-  border-radius: 10px;
-}
-
