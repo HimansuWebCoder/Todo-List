@@ -30,6 +30,7 @@ input {
  /* add fontsize dynamically using javascript when input value add then this fontsize makeup */
 .fontSize {
 	font-size: 1.5rem;
+	color: white;
 }
 
 /* button styling */
@@ -39,3 +40,4 @@ button {
 	border: none;
 	border-radius: 5px;
 }
+
