@@ -1,43 +1,52 @@
-* {
-	box-sizing: border-box;
-}
-
 body {
-	background-color: rgba(1, 255, 255, 0.918);
-}
+	background: url("https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg");
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: 100% 200rem;
+  }
+  #container {
+	max-width: 500px;
+	height: 500px;
+	/* background-color: ; */
+	background: url("https://www.shutterstock.com/image-photo/chalk-rubbed-out-on-blackboard-600nw-226458436.jpg");
+	opacity: 0.7;
+	background-repeat: no-repeat;
+	background-size: 100% 800px;
+	padding: 10px;
+	margin: auto;
+	border-radius: 3px;
+  }
 
-/* todo list container styling  */
-#todo-container {
-  width: 90%;
-  height: 60vh;
-  margin: auto;
-  padding: 1rem;
-  background-color:rgba(101, 116, 167, 0.919);
-  border-radius: 5px;
-  box-shadow: 1px 10px 100px 50px rgba(38, 0, 255, 0.34);
-}
-
-/* input element styling  */
-input {
-	width: 80%;
+  input {
+	max-width: 80%;
+	width: 1000px;
 	height: 30px;
-	border: none;
 	border-radius: 5px;
-	font-size: 1.5rem;
-}
-
-
- /* add fontsize dynamically using javascript when input value add then this fontsize makeup */
-.fontSize {
-	font-size: 1.5rem;
-	color: white;
-}
-
-/* button styling */
-button {
-	width: fit-content;
-	height: 38px;
 	border: none;
-	border-radius: 5px;
-}
+  }
 
+  #add-value {
+	width: 50px;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+	margin: 5px;
+  }
+
+  ul {
+	list-style-type: square;
+  }
+
+  .list-container {
+	width: 400px;
+	max-width: 90%;
+	height: 400px;
+	background: url("https://newline-interactive.com/wp-content/uploads/2019/01/R3-series.jpg");
+	background-position: fixed;
+	background-repeat: no-repeat;
+	background-size: 300px 400px;
+	margin: auto;
+	border-radius: 5px;
+	padding: 3px;
+	word-wrap: break-word;
+  }
