@@ -17,3 +17,57 @@
     <script src="script.js"></script>
   </body>
 </html>
+
+Simple Text editor feature implemented
+
+<!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .editor {
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 400px;
+        height: 200px;
+        overflow-y: auto;
+      }
+      .editor p {
+        margin: 0;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #e0e0e0; /* Simulating the horizontal line */
+      }
+      .editor p:last-child {
+        border-bottom: none; /* Remove the line from the last paragraph */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="editor" contenteditable="true">
+      <p>It was a dark and stormy night...</p>
+    </div>
+
+    <script>
+      const editor = document.querySelector(".editor");
+
+      // Listen for Enter key to create new paragraph
+      editor.addEventListener("keydown", function (e) {
+        if (e.key === "Enter") {
+          e.preventDefault(); // Prevent default behavior
+          const newLine = document.createElement("p");
+          // newLine.innerHTML = "&nbsp;"; // Add a space so the line is visible
+          editor.appendChild(newLine);
+
+          // Move cursor to the new paragraph
+          const range = document.createRange();
+          const sel = window.getSelection();
+          range.setStart(newLine, 0);
+          range.collapse(true);
+          sel.removeAllRanges();
+          sel.addRange(range);
+        }
+      });
+    </script>
+  </body>
+</html> -->
